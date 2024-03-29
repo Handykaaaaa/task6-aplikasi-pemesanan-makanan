@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <form action="pemesanan.php" method="POST">
+            <h1>Food Ordering</h1>
+            <h2>CAFE KITA</h2>
+            <p>---------------------------</p>
+            <label for="menu">Makanan:</label>
+            <select name="menu" id="menu">
+                <option value="fries">Fries</option>
+                <option value="burger">Burger</option>
+                <option value="pizza">Pizza</option>
+                <!-- Tambahkan opsi menu lain di sini -->
+            </select>
+            <label for="drink">Minuman:</label>
+            <select name="drink" id="drink">
+                <option value="soda">Soda</option>
+                <option value="milk">Milk</option>
+                <option value="juice">Juice</option>
+                <!-- Tambahkan opsi minuman lain di sini -->
+            </select>
+            <label for="quantity_menu">Quantity Menu:</label>
+            <input type="number" name="quantity_menu" id="quantity_menu" min="1" value="1">
+            <label for="quantity_drink">Quantity Drink:</label>
+            <input type="number" name="quantity_drink" id="quantity_drink" min="1" value="1">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <input type="submit" value="Place Order">
+        </form>
+    </div>
+</body>
+</html>

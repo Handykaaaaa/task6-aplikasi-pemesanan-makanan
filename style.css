@@ -1,0 +1,77 @@
+ body {
+            background-image: url(https://fnbpreneur.id/wp-content/uploads/2022/08/rumah-makan-khas-batak.png);
+            background-color: #222;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 50px;
+            color: #ffffff;
+        }
+
+        h2 {
+           text-align: center;
+           margin-bottom: 30px;
+           font-size: 25px;  
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        form {
+            background-color: #1f1f1f;
+            padding: 30px;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: #fff;
+        }
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 3px;
+            border: none;
+            background-color: #3d3d3d;
+            color: #fbfbfb;
+            margin-bottom: 20px;
+        }
+        select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("arrow.png");
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-right: 30px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
